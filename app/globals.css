@@ -1,22 +1,48 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Основной фон / Темный фон */
+  --background: #FFFFFF;
+
+  /* Светлый фон карточек и блоков */
+  --card: #F8F5F0; /* теплый кремовый/слоновая кость */
+
+  /* Текстовый цвет (основной) */
+  --foreground: #1A1A1A; /* почти черный */
+
+  /* Акцентный зеленый */
+  --accent: #3A7D44; /* насыщенный лесной зеленый */
+  --accent-light: #6B9E6B; /* более светлый зеленый */
+
+  /* Цвет заголовков / Темные блоки */
+  --heading-bg: #000000; /* черный для заголовков */
+
+  /* Белый / Очень светлый текст */
+  --white: #FFFFFF;
+
+  /* Серый для границ и разделителей */
+  --border-light: #E0E0E0; /* светло-серый */
+  --border-medium: #CCCCCC; /* средний серый для инпутов, рамок */
+
+  /* Цвет активного состояния / Ховера */
+  --hover: #2E6A3A; /* чуть темнее основного зеленого */
 }
+
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-heading-bg: var(--heading-bg);
+  --color-white: var(--white);
+  --color-border-light: var(--border-light);
+  --color-border-medium: var(--border-medium);
+  --color-hover: var(--hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
