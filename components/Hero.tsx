@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* Контент */}
-        <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4">
+        <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4 mx-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 max-w-4xl leading-tight">
             Апартаменты мечты в Домбае
           </h1>
