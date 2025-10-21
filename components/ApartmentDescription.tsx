@@ -2,62 +2,46 @@ import Image from "next/image";
 
 const ApartmentDescription = () => {
   return (
-    <div className="py-20 px-4 overflow-hidden">
+    <div className="py-16 px-4 bg-[#F8F5F0]">
       <div className="max-w-7xl mx-auto">
-        <div className="relative">
-          <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#3A7D44]/10 rounded-full -z-10"></div>
-          <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#3A7D44]/10 rounded-full -z-10"></div>
-          
-          <div className="text-center mb-16 relative">
-            <div className="inline-block mb-4">
-              <div className="relative">
-                <div className="absolute -inset-2 bg-[#3A7D44] rounded-lg blur opacity-75 -z-10"></div>
-                <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] relative relative px-6 py-2 inline-block">
-                  Домашний уют в горах
-                </h2>
-              </div>
-            </div>
-            <p className="text-xl text-[#1A1A1A]/80 max-w-3xl mx-auto px-4">
-              Ощутите комфорт и спокойствие в современной дизайнерской квартире с видом на заснеженные вершины Кавказа
-            </p>
-          </div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">
+            Современная квартира в Домбае
+          </h2>
+          <p className="text-xl text-[#1A1A1A]/80 max-w-3xl mx-auto">
+            Стильные апартаменты с дизайнерским ремонтом и великолепным видом на горы
+          </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white rounded-2xl shadow-lg p-6 transform transition duration-500 hover:scale-105 hover:shadow-2xl border border-[#E0E0E0]">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-bold text-[#1A1A1A] mb-2">Уютное жилье</h4>
-              <p className="text-[#1A1A1A]/70">Дизайнерский ремонт с использованием качественных материалов</p>
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0]">
+            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-lg flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
             </div>
+            <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Дизайнерский ремонт</h3>
+            <p className="text-[#1A1A1A]/70">Квартира выполнена в современном стиле с использованием качественных материалов</p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-6 transform transition duration-500 hover:scale-105 hover:shadow-2xl border border-[#E0E0E0]">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-bold text-[#1A1A1A] mb-2">Вместимость</h4>
-              <p className="text-[#1A1A1A]/70">До 6 гостей в 3 комфортабельных комнатах</p>
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0]">
+            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-lg flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
             </div>
+            <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Размещение до 6 гостей</h3>
+            <p className="text-[#1A1A1A]/70">Просторные комнаты для комфортного отдыха всей семьи или с друзьями</p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-6 transform transition duration-500 hover:scale-105 hover:shadow-2xl border border-[#E0E0E0]">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h4 className="text-xl font-bold text-[#1A1A1A] mb-2">Расположение</h4>
-              <p className="text-[#1A1A1A]/70">Всего 7 минут до канатной дороги</p>
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0]">
+            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-lg flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
             </div>
+            <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Удобное расположение</h3>
+            <p className="text-[#1A1A1A]/70">Всего 7 минут до канатной дороги и рядом с природными достопримечательностями</p>
           </div>
         </div>
 
