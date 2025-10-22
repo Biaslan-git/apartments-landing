@@ -5,6 +5,7 @@ import KitchenAndTech from "@/components/KitchenAndTech";
 import AdditionalAmenities from "@/components/AdditionalAmenities";
 import LocationAndAttractions from "@/components/LocationAndAttractions";
 import ContactSection from "@/components/ContactSection";
+import MapSection from "@/components/MapSection";
 import AmenitiesAndAccommodation from "@/components/AmenitiesAndAccommodation";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AdditionalAmenities />
       <LocationAndAttractions />
       <ContactSection />
+      <MapSection />
       <AmenitiesAndAccommodation />
     </main>
   );
