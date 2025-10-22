@@ -3,6 +3,7 @@ import ApartmentDescription from "@/components/ApartmentDescription";
 import SleepingAreas from "@/components/SleepingAreas";
 import KitchenAndTech from "@/components/KitchenAndTech";
 import AdditionalAmenities from "@/components/AdditionalAmenities";
+import LocationAndAttractions from "@/components/LocationAndAttractions";
 import AmenitiesAndAccommodation from "@/components/AmenitiesAndAccommodation";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <SleepingAreas />
       <KitchenAndTech />
       <AdditionalAmenities />
+      <LocationAndAttractions />
       <AmenitiesAndAccommodation />
     </main>
   );
