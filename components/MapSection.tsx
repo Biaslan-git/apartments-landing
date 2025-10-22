@@ -12,18 +12,40 @@ const MapSection = () => {
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-[#E0E0E0] relative h-[400px] md:h-[500px]">
-          <div style={{position:'relative', overflow:'hidden', width:'100%', height:'100%'}} className="h-full">
+          <div 
+            style={{position:'relative', overflow:'hidden', width:'100%', height:'100%'}} 
+            className="h-full"
+          >
             <a href="https://yandex.ru/maps/org/elitnyye_apartamenty_balala_/186668549633/?utm_medium=mapframe&utm_source=maps" style={{color:'#eee', fontSize:'12px', position:'absolute', top:'0px', zIndex: 1}}>Элитные Апартаменты "Balala"</a>
             <a href="https://yandex.ru/maps/11020/karachay-cherkess-republic/category/guest_house/131994109947/?utm_medium=mapframe&utm_source=maps" style={{color:'#eee', fontSize:'12px', position:'absolute', top:'14px', zIndex: 1}}>Гостевой дом в Карачаево‑Черкесской Республике</a>
             <iframe 
-              src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16" 
+              src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false" 
               width="100%" 
               height="100%" 
               frameBorder="1" 
               allowFullScreen={true} 
-              style={{position:'relative', border: 'none'}}
+              style={{position:'relative', border: 'none', pointerEvents: 'none'}}
               title="Карта апартаментов в Домбае"
             ></iframe>
+            {/* Overlay для активации карты при клике */}
+            <div 
+              style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 2}}
+              onClick={(e) => {
+                e.currentTarget.style.display = 'none';
+                const iframe = e.currentTarget.nextSibling;
+                if (iframe) {
+                  iframe.style.pointerEvents = 'auto';
+                }
+              }}
+              className="cursor-pointer"
+            >
+              <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+                <div className="bg-white p-4 rounded-lg shadow-lg text-center">
+                  <p className="text-[#1A1A1A] font-medium mb-2">Карта апартаментов</p>
+                  <p className="text-sm text-[#1A1A1A]/70">Нажмите для активации</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
