@@ -6,16 +6,16 @@ const ContactSection = () => {
     <div className="py-16 px-4 bg-[#F8F5F0]">
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-[#E0E0E0]">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
             Готовы забронировать апартаменты?
           </h2>
-          <p className="text-lg text-[#1A1A1A]/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-[#1A1A1A]/80 mb-8 max-w-full mx-auto">
             Свяжитесь с нами прямо сейчас, чтобы забронировать ваш отдых в Домбае
           </p>
 
           <div className="mb-8">
-            <div className="text-2xl md:text-3xl font-bold text-[#3A7D44] mb-2">8 (938) 528-18-88</div>
-            <p className="text-[#1A1A1A]/70">Бала</p>
+            <div className="text-xl md:text-2xl font-bold text-[#3A7D44] mb-2">8 (938) 528-18-88</div>
+            <p className="text-sm md:text-[#1A1A1A]/70">Бала</p>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -42,7 +42,7 @@ const ContactSection = () => {
             </a>
           </div>
 
-          <p className="text-sm text-[#1A1A1A]/60 mt-6">
+          <p className="text-xs md:text-sm text-[#1A1A1A]/60 mt-6">
             Мы ответим на все ваши вопросы и поможем с бронированием
           </p>
         </div>

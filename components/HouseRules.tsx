@@ -3,10 +3,10 @@ const HouseRules = () => {
     <div className="py-16 px-4 bg-[#F8F5F0]">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
             Правила проживания
           </h2>
-          <p className="text-xl text-[#1A1A1A]/80 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-[#1A1A1A]/80 max-w-full mx-auto">
             Важная информация для комфортного и безопасного отдыха
           </p>
         </div>
@@ -20,8 +20,8 @@ const HouseRules = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Безопасность и имущество</h3>
-                <p className="text-[#1A1A1A]/80">
+                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-2 max-w-full">Безопасность и имущество</h3>
+                <p className="text-sm md:text-[#1A1A1A]/80">
                   Имущество в квартире проходит инвентаризацию, поэтому для исключения штрафов необходима бережная эксплуатация. 
                   Пожалуйста, бережно относитесь ко всему оборудованию и мебели в апартаментах.
                 </p>
@@ -35,8 +35,8 @@ const HouseRules = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Запрет курения</h3>
-                <p className="text-[#1A1A1A]/80">
+                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-2 max-w-full">Запрет курения</h3>
+                <p className="text-sm md:text-[#1A1A1A]/80">
                   Курение в помещениях апартаментов запрещено. Для курящих гостей предусмотрена designated зона на улице. 
                   За нарушение этого правила предусмотрен дополнительный штраф.
                 </p>
@@ -50,8 +50,8 @@ const HouseRules = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Тишина</h3>
-                <p className="text-[#1A1A1A]/80">
+                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-2 max-w-full">Тишина</h3>
+                <p className="text-sm md:text-[#1A1A1A]/80">
                   Не устраивайте шумные вечеринки или громкие мероприятия, особенно после 22:00. 
                   Уважайте соседей и обстановку курорта для общего комфортного отдыха.
                 </p>
@@ -65,8 +65,8 @@ const HouseRules = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Гости и посетители</h3>
-                <p className="text-[#1A1A1A]/80">
+                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-2 max-w-full">Гости и посетители</h3>
+                <p className="text-sm md:text-[#1A1A1A]/80">
                   Мы приветствуем гостей с детьми и семейные пары. За дополнительных гостей может взиматься плата. 
                   Пожалуйста, уточняйте условия при бронировании. Максимальная вместимость - 6 человек.
                 </p>
@@ -80,8 +80,8 @@ const HouseRules = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#1A1A1A] mb-2">Время заезда и выезда</h3>
-                <p className="text-[#1A1A1A]/80">
+                <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-2 max-w-full">Время заезда и выезда</h3>
+                <p className="text-sm md:text-[#1A1A1A]/80">
                   Время заезда: после 15:00, время выезда: до 12:00. Пожалуйста, уведомите нас заранее, 
                   если ожидается поздний заезд или ранний выезд.
                 </p>
@@ -96,7 +96,7 @@ const HouseRules = () => {
                   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                 </svg>
               </div>
-              <p className="text-[#1A1A1A]/80">
+              <p className="text-sm md:text-[#1A1A1A]/80">
                 Пожалуйста, уточняйте условия при бронировании. 
                 Не упустите возможность отдохнуть в одном из самых живописных уголков природы!
               </p>

@@ -7,7 +7,6 @@ import LocationAndAttractions from "@/components/LocationAndAttractions";
 import ContactSection from "@/components/ContactSection";
 import MapSection from "@/components/MapSection";
 import HouseRules from "@/components/HouseRules";
-import AmenitiesAndAccommodation from "@/components/AmenitiesAndAccommodation";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <ContactSection />
       <MapSection />
       <HouseRules />
-      <AmenitiesAndAccommodation />
     </main>
   );
 }

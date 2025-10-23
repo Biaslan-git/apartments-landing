@@ -9,7 +9,7 @@ const Hero = () => {
         {/* Фоновое изображение */}
         <div className="absolute inset-0 z-0 m-4">
           <Image
-            src="/hero-bg.jpg"
+            src="/temp.jpg"
             alt="Панорамный вид на горы Домбая"
             fill
             className="object-cover rounded-3xl"
@@ -21,10 +21,10 @@ const Hero = () => {
 
         {/* Контент */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4 mx-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 max-w-4xl leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 max-w-full leading-tight">
             Апартаменты мечты в Домбае
           </h1>
-          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 max-w-2xl md:max-w-3xl opacity-90 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 max-w-full opacity-90 leading-relaxed">
             Наслаждайтесь комфортом и потрясающими видами на заснеженные вершины Кавказа
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
