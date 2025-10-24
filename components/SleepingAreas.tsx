@@ -23,9 +23,9 @@ const SleepingAreas = () => {
             </div>
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Спальня 1</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
-              <Image 
-                src="/temp.jpg" 
-                alt="Первая спальня с двуспальной кроватью" 
+              <Image
+                src="/temp.jpg"
+                alt="Первая спальня с двуспальной кроватью"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -45,9 +45,9 @@ const SleepingAreas = () => {
             </div>
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Спальня 2</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
-              <Image 
-                src="/temp.jpg" 
-                alt="Вторая спальня с двухъярусной кроватью" 
+              <Image
+                src="/temp.jpg"
+                alt="Вторая спальня с двухъярусной кроватью"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -67,9 +67,9 @@ const SleepingAreas = () => {
             </div>
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Гостиная</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
-              <Image 
-                src="/temp.jpg" 
-                alt="Раскладной диван в гостиной" 
+              <Image
+                src="/temp.jpg"
+                alt="Раскладной диван в гостиной"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -89,7 +89,7 @@ const SleepingAreas = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -97,7 +97,7 @@ const SleepingAreas = () => {
                   <span className="text-sm md:text-[#1A1A1A]">Бесплатное постельное бельё и наборы полотенец</span>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -105,7 +105,7 @@ const SleepingAreas = () => {
                   <span className="text-sm md:text-[#1A1A1A]">Халаты и тапочки при VIP-заселении</span>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -115,9 +115,9 @@ const SleepingAreas = () => {
               </ul>
             </div>
             <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image 
-                src="/temp.jpg" 
-                alt="Постельное бельё и удобства в апартаментах" 
+              <Image
+                src="/temp.jpg"
+                alt="Постельное бельё и удобства в апартаментах"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
