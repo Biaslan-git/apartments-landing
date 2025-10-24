@@ -6,10 +6,10 @@ const ContactSection = () => {
     <div className="py-16 px-4 bg-[#F8F5F0]">
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-[#E0E0E0]">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4 max-w-full">
             Готовы забронировать апартаменты?
           </h2>
-          <p className="text-base md:text-lg text-[#1A1A1A]/80 mb-8 max-w-full mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-[#1A1A1A]/80 mb-8 max-w-full mx-auto">
             Свяжитесь с нами прямо сейчас, чтобы забронировать ваш отдых в Домбае
           </p>
 

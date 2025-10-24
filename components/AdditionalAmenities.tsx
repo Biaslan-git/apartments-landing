@@ -15,9 +15,9 @@ const AdditionalAmenities = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
-            <Image 
-              src="/temp.jpg" 
-              alt="Баня на дровах и купель в Домбае" 
+            <Image
+              src="/temp.jpg"
+              alt="Баня на дровах и купель в Домбае"
               fill
               style={{ objectFit: 'cover' }}
               className="object-cover"
@@ -28,14 +28,14 @@ const AdditionalAmenities = () => {
               <p className="text-sm md:text-base">Расслабьтесь в традиционной русской бане и освежитесь в купели</p>
             </div>
           </div>
-          
+
           <div className="flex flex-col justify-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6 max-w-full">
               Уникальные <span className="text-[#3A7D44]">услуги</span> на первом этаже
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-[#1A1A1A]/80 mb-8">
-              На первом этаже жилого комплекса находятся баня на дровах и чан для отдыха. 
-              Эти услуги оплачиваются отдельно и обеспечивают дополнительный уровень релакса 
+              На первом этаже жилого комплекса находятся баня на дровах и чан для отдыха.
+              Эти услуги оплачиваются отдельно и обеспечивают дополнительный уровень релакса
               после активного дня в горах.
             </p>
             <div className="space-y-4">
@@ -100,9 +100,9 @@ const AdditionalAmenities = () => {
         <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#E0E0E0]">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image 
-                src="/temp.jpg" 
-                alt="Беседка и зона отдыха с настольными играми" 
+              <Image
+                src="/temp.jpg"
+                alt="Беседка и зона отдыха с настольными играми"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -111,25 +111,25 @@ const AdditionalAmenities = () => {
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#1A1A1A] mb-4 max-w-full">Дополнительно</h3>
               <ul className="space-y-3">
-                <li className="flex items-start">
-                  <div className="w-5 h-5 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
-                    <svg className="w-2 h-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <li className="flex items-center">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
                   <span className="text-[#1A1A1A] text-sm sm:text-base">Беседка для комфортного отдыха на свежем воздухе</span>
                 </li>
-                <li className="flex items-start">
-                  <div className="w-5 h-5 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
-                    <svg className="w-2 h-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <li className="flex items-center">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
                   <span className="text-[#1A1A1A] text-sm sm:text-base">Настольные игры для семейного досуга</span>
                 </li>
-                <li className="flex items-start">
-                  <div className="w-5 h-5 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
-                    <svg className="w-2 h-2 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <li className="flex items-center">
+                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0 mt-1">
+                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
                   </div>
