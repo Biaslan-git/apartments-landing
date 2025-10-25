@@ -20,26 +20,6 @@ const ContactSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          {/* Карточка телефона */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#E0E0E0] text-center transform transition duration-300 hover:scale-105">
-            <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2V7a2 2 0 012-2zM3 13h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1a2 2 0 012-2zm0 8h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1a2 2 0 012-2z" />
-              </svg>
-            </div>
-            <h3 className="text-2xl font-bold text-[#1A1A1A] mb-2">Позвоните нам</h3>
-            <div className="text-2xl font-bold text-[#3A7D44] mb-4">8 (938) 528-18-88</div>
-            <p className="text-[#1A1A1A]/70 mb-6">Бала</p>
-            <a
-              href={`tel:${phoneNumber}`}
-              className="bg-[#3A7D44] hover:bg-[#2E6A3A] text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center gap-2"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2V7a2 2 0 012-2zM3 13h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1a2 2 0 012-2zm0 8h12a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1a2 2 0 012-2z" />
-              </svg>
-              Позвонить сейчас
-            </a>
-          </div>
 
           {/* Карточка WhatsApp */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#E0E0E0] text-center transform transition duration-300 hover:scale-105">
@@ -64,6 +44,26 @@ const ContactSection = () => {
             </a>
           </div>
 
+          {/* Карточка телефона */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-[#3A7D44] text-center transform transition duration-300 hover:scale-105">
+            <div className="w-16 h-16 border-2 border-[#3A7D44] rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 5V3z" />
+              </svg>
+            </div>
+            <h3 className="text-2xl font-bold text-[#1A1A1A] mb-2">Позвоните нам</h3>
+            <div className="text-2xl font-bold text-[#3A7D44] mb-4">8 (938) 528-18-88</div>
+            <p className="text-[#1A1A1A]/70 mb-6">Бала</p>
+            <a
+              href={`tel:${phoneNumber}`}
+              className="border-2 border-[#3A7D44] text-[#3A7D44] hover:bg-[#3A7D44] hover:text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center gap-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 5V3z" />
+              </svg>
+              Позвонить сейчас
+            </a>
+          </div>
           {/* Карточка Telegram */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#E0E0E0] text-center transform transition duration-300 hover:scale-105">
             <div className="w-16 h-16 bg-[#0088cc]/10 rounded-full flex items-center justify-center mx-auto mb-6">
