@@ -64,26 +64,29 @@ const ContactSection = () => {
               Позвонить сейчас
             </a>
           </div>
-          {/* Карточка Telegram */}
+          {/* Карточка Instagram */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#E0E0E0] text-center transform transition duration-300 hover:scale-105">
-            <div className="w-16 h-16 bg-[#0088cc]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#0088cc]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            <div className="w-16 h-16 bg-[#E1306C]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#E1306C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16a4 4 0 100-8 4 4 0 000 8zm0 0v1.5a2.5 2.5 0 005 0V16m-5 0H9m6 0h3m-3 0l-3-3m3 3l3-3M3 19.5V5a2 2 0 012-2h14a2 2 0 012 2v14.5a2 2 0 01-2 2h-14a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-[#1A1A1A] mb-2">Наш Telegram</h3>
-            <div className="text-2xl font-bold text-[#0088cc] mb-4">@balala_apartments</div>
-            <p className="text-[#1A1A1A]/70 mb-6">Канал с новостями</p>
+            <h3 className="text-2xl font-bold text-[#1A1A1A] mb-2">Наш Instagram</h3>
+            <div className="text-2xl font-bold text-[#E1306C] mb-4">@balala_apartments</div>
+            <p className="text-[#1A1A1A]/70 mb-4">Фото и видео апартаментов</p>
+            <div className="mb-4">
+              <span className="text-xs bg-red-100 text-red-800 px-2 py-1 rounded-full">Экстремистская организация</span>
+            </div>
             <a
-              href={telegramUrl}
+              href="https://instagram.com/balala_apartments"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#0088cc] hover:bg-[#0077b3] text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center gap-2"
+              className="bg-[#E1306C] hover:bg-[#C13584] text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center gap-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16a4 4 0 100-8 4 4 0 000 8zm0 0v1.5a2.5 2.5 0 005 0V16m-5 0H9m6 0h3m-3 0l-3-3m3 3l3-3M3 19.5V5a2 2 0 012-2h14a2 2 0 012 2v14.5a2 2 0 01-2 2h-14a2 2 0 01-2-2z" />
               </svg>
-              Перейти в Telegram
+              Перейти в Instagram
             </a>
           </div>
         </div>
