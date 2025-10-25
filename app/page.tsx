@@ -18,7 +18,7 @@ export default function Home() {
       <AdditionalAmenities />
       <LocationAndAttractions />
       <ContactSection />
-      <MapSection />
+      {/* <MapSection /> */}
       <HouseRules />
     </main>
   );
