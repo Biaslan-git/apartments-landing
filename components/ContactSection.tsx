@@ -73,10 +73,7 @@ const ContactSection = () => {
             </div>
             <h3 className="text-2xl font-bold text-[#1A1A1A] mb-2">Наш Instagram</h3>
             <div className="text-2xl font-bold text-[#E1306C] mb-4">@balala_apartments</div>
-            <p className="text-[#1A1A1A]/70 mb-4">Фото и видео апартаментов</p>
-            <div className="mb-4">
-              <span className="text-xs bg-red-100 text-red-800 px-2 py-1 rounded-full">Экстремистская организация</span>
-            </div>
+            <p className="text-[#1A1A1A]/70 mb-6">Фото и видео апартаментов</p>
             <a
               href="https://instagram.com/balala_apartments"
               target="_blank"
@@ -89,6 +86,13 @@ const ContactSection = () => {
               Перейти в Instagram
             </a>
           </div>
+        </div>
+
+        {/* Предупреждение о статусе Instagram */}
+        <div className="text-center mb-8">
+          <p className="text-xs text-[#1A1A1A]/60 max-w-2xl mx-auto">
+            * Instagram признан экстремистской организацией на территории Российской Федерации
+          </p>
         </div>
 
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-[#E0E0E0]">
