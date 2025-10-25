@@ -9,7 +9,7 @@ const Hero = () => {
         {/* Фоновое изображение */}
         <div className="absolute inset-0 z-0 m-4">
           <Image
-            src="/temp.jpg"
+            src="/hero-bg.jpg"
             alt="Панорамный вид на горы Домбая"
             fill
             className="object-cover rounded-3xl"
