@@ -29,16 +29,16 @@ const ContactSection = () => {
             <div className="flex flex-col sm:flex-row justify-center gap-6 mb-8">
               <a 
                 href={`tel:${phoneNumber}`} 
-                className="bg-[#3A7D44] hover:bg-[#2E6A3A] text-white font-bold py-4 px-8 rounded-xl transition duration-300 flex items-center justify-center gap-3 w-full shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="bg-white text-gray-900 font-bold py-4 px-8 rounded-xl transition duration-300 flex items-center justify-center gap-3 w-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 border-2 border-[#3A7D44]"
               >
-                <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                <div className="w-10 h-10 bg-[#3A7D44]/10 rounded-full flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#3A7D44]" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
                 <div className="flex flex-col items-start">
-                  <span className="text-sm font-normal">Позвонить</span>
-                  <span className="text-lg font-bold">{phoneNumber.replace(/(\d{1})(\d{3})(\d{3})(\d{2})(\d{2})/, '$1 ($2) $3-$4-$5')}</span>
+                  <span className="text-sm font-normal text-[#1A1A1A]/70">Позвонить</span>
+                  <span className="text-lg font-bold text-[#3A7D44]">{phoneNumber.replace(/(\d{1})(\d{3})(\d{3})(\d{2})(\d{2})/, '$1 ($2) $3-$4-$5')}</span>
                 </div>
               </a>
               
@@ -79,7 +79,7 @@ const ContactSection = () => {
               </a>
             </div>
 
-            <p className="text-xs md:text-sm text-[#1A1A1A]/60 mt-6">
+            <p className="text-xs sm:text-sm text-[#1A1A1A]/60 mt-6">
               Мы ответим на все ваши вопросы и поможем с бронированием
             </p>
           </div>
@@ -88,18 +88,17 @@ const ContactSection = () => {
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6 text-center max-w-full">
               Найдите нас на карте
             </h3>
-            <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg border border-[#E0E0E0]">
+            <div className="relative w-full pb-[75%] rounded-2xl overflow-hidden shadow-lg border border-[#E0E0E0]">
               <iframe 
                 src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false" 
-                width="100%" 
-                height="100%" 
+                className="absolute top-0 left-0 w-full h-full"
                 frameBorder="1" 
                 allowFullScreen 
-                style={{position:'absolute', border: 'none'}}
+                style={{border: 'none'}}
                 title="Карта апартаментов в Домбае"
               ></iframe>
             </div>
-            <p className="text-xs md:text-sm text-[#1A1A1A]/60 mt-6 text-center">
+            <p className="text-xs sm:text-sm text-[#1A1A1A]/60 mt-6 text-center">
               Апартаменты находятся в живописном поселке Домбай
             </p>
           </div>
