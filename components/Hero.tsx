@@ -22,7 +22,7 @@ const Hero = () => {
         {/* Контент */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4 mx-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 max-w-full leading-tight">
-            Апартаменты мечты в Домбае
+            Элитные апартаменты "Balala" в Домбае
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 max-w-full opacity-90 leading-relaxed">
             Наслаждайтесь комфортом и потрясающими видами на заснеженные вершины Кавказа
