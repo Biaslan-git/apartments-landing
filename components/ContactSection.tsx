@@ -91,7 +91,7 @@ const ContactSection = () => {
         {/* Предупреждение о статусе Instagram */}
         <div className="text-center mb-8">
           <p className="text-xs text-[#1A1A1A]/60 max-w-2xl mx-auto">
-            * Instagram признан экстремистской организацией на территории Российской Федерации
+            * Instagram(Meta) признан экстремистской организацией на территории Российской Федерации
           </p>
         </div>
 
