@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ApartmentDescription = () => {
   return (
-    <div className="py-16 px-4 bg-[#F8F5F0]">
+    <section className="py-16 px-4 bg-[#F8F5F0]" id="description">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4 max-w-full">
@@ -54,8 +54,8 @@ const ApartmentDescription = () => {
                 <span className="text-[#3A7D44] text-sm font-semibold uppercase tracking-wider">Домбай Апартаменты</span>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mt-2 mb-4 max-w-full">Созданы для отдыха в горах</h3>
                 <p className="text-sm md:text-[#1A1A1A]/80 mb-6">
-                  Квартира расположена в современном жилом комплексе и предлагает уютную атмосферу. 
-                  Дизайнерский ремонт выполнен из качественных материалов, создавая невероятную и 
+                  Квартира расположена в современном жилом комплексе и предлагает уютную атмосферу.
+                  Дизайнерский ремонт выполнен из качественных материалов, создавая невероятную и
                   вдохновляющую атмосферу для полноценного отдыха.
                 </p>
                 <div className="space-y-3">
@@ -87,9 +87,9 @@ const ApartmentDescription = () => {
               </div>
             </div>
             <div className="relative h-96 lg:h-full">
-              <Image 
-                src="/temp.jpg" 
-                alt="Интерьер апартаментов в Домбае" 
+              <Image
+                src="/temp.jpg"
+                alt="Интерьер апартаментов в Домбае"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -98,7 +98,7 @@ const ApartmentDescription = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

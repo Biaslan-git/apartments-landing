@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const KitchenAndTech = () => {
   return (
-    <div className="py-16 px-4 bg-[#F8F5F0]">
+    <section className="py-16 px-4 bg-[#F8F5F0]" id="kitchen">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4 max-w-full">
@@ -22,7 +22,7 @@ const KitchenAndTech = () => {
             </div>
             <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A] mb-6 max-w-full">Оборудованная кухня</h3>
             <p className="text-sm md:text-[#1A1A1A]/80 mb-6">
-              Кухня полностью оборудована для комфортного приготовления пищи. 
+              Кухня полностью оборудована для комфортного приготовления пищи.
               В наличии вся необходимая техника и посуда для приготовления ваших любимых блюд.
             </p>
             <div className="grid grid-cols-2 gap-4">
@@ -78,9 +78,9 @@ const KitchenAndTech = () => {
           </div>
 
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
-            <Image 
-              src="/temp.jpg" 
-              alt="Оборудованная кухня апартаментов в Домбае" 
+            <Image
+              src="/temp.jpg"
+              alt="Оборудованная кухня апартаментов в Домбае"
               fill
               style={{ objectFit: 'cover' }}
               className="object-cover"
@@ -100,7 +100,7 @@ const KitchenAndTech = () => {
               <h4 className="font-bold text-lg text-[#1A1A1A] mb-2">Wi-Fi</h4>
               <p className="text-xs md:text-[#1A1A1A]/70">Высокоскоростной интернет для связи и развлечений</p>
             </div>
-            
+
             <div className="text-center p-6 bg-[#F8F5F0] rounded-xl">
               <div className="w-14 h-14 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -110,7 +110,7 @@ const KitchenAndTech = () => {
               <h4 className="font-bold text-lg text-[#1A1A1A] mb-2">Телевизор</h4>
               <p className="text-xs md:text-[#1A1A1A]/70">Для просмотра фильмов и новостей</p>
             </div>
-            
+
             <div className="text-center p-6 bg-[#F8F5F0] rounded-xl">
               <div className="w-14 h-14 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -120,7 +120,7 @@ const KitchenAndTech = () => {
               <h4 className="font-bold text-lg text-[#1A1A1A] mb-2">Стиральная машина</h4>
               <p className="text-xs md:text-[#1A1A1A]/70">Для стирки белья во время проживания</p>
             </div>
-            
+
             <div className="text-center p-6 bg-[#F8F5F0] rounded-xl">
               <div className="w-14 h-14 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -130,7 +130,7 @@ const KitchenAndTech = () => {
               <h4 className="font-bold text-lg text-[#1A1A1A] mb-2">Утюг и гладильная доска</h4>
               <p className="text-xs md:text-[#1A1A1A]/70">Для поддержания опрятного вида</p>
             </div>
-            
+
             <div className="text-center p-6 bg-[#F8F5F0] rounded-xl">
               <div className="w-14 h-14 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -140,7 +140,7 @@ const KitchenAndTech = () => {
               <h4 className="font-bold text-lg text-[#1A1A1A] mb-2">Фен</h4>
               <p className="text-xs md:text-[#1A1A1A]/70">Для ухода за волосами</p>
             </div>
-            
+
             <div className="text-center p-6 bg-[#F8F5F0] rounded-xl">
               <div className="w-14 h-14 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -153,7 +153,7 @@ const KitchenAndTech = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

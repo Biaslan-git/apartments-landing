@@ -1,6 +1,6 @@
 const MapSection = () => {
   return (
-    <div className="py-16 px-4 bg-[#F8F5F0]">
+    <section className="py-16 px-4 bg-[#F8F5F0]" id="map">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
@@ -12,13 +12,13 @@ const MapSection = () => {
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-[#E0E0E0] relative h-[400px] md:h-[500px]">
-          <iframe 
-            src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false" 
-            width="100%" 
-            height="100%" 
-            frameBorder="1" 
-            allowFullScreen 
-            style={{position:'absolute', border: 'none'}}
+          <iframe
+            src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false"
+            width="100%"
+            height="100%"
+            frameBorder="1"
+            allowFullScreen
+            style={{ position: 'absolute', border: 'none' }}
             title="Карта апартаментов в Домбае"
           ></iframe>
         </div>
@@ -34,7 +34,7 @@ const MapSection = () => {
             <h3 className="font-bold text-base md:text-lg text-[#1A1A1A] mb-2 max-w-full">Домбай</h3>
             <p className="text-xs md:text-[#1A1A1A]/70">Карачаево-Черкесская Республика</p>
           </div>
-          
+
           <div className="bg-white p-6 rounded-xl shadow-md text-center">
             <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -44,7 +44,7 @@ const MapSection = () => {
             <h3 className="font-bold text-base md:text-lg text-[#1A1A1A] mb-2 max-w-full">7 минут</h3>
             <p className="text-xs md:text-[#1A1A1A]/70">до канатной дороги</p>
           </div>
-          
+
           <div className="bg-white p-6 rounded-xl shadow-md text-center">
             <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,7 +56,7 @@ const MapSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

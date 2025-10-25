@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LocationAndAttractions = () => {
   return (
-    <div className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-white" id="location">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
@@ -19,11 +19,11 @@ const LocationAndAttractions = () => {
               Всего <span className="text-[#3A7D44]">7 минут</span> до канатной дороги
             </h3>
             <p className="text-sm md:text-[#1A1A1A]/80 mb-6">
-              Наше жилье находится всего в 7-10 минутах пешком от канатной дороги, 
+              Наше жилье находится всего в 7-10 минутах пешком от канатной дороги,
               что делает его отличной базой для горнолыжников и сноубордистов.
             </p>
             <p className="text-sm md:text-[#1A1A1A]/80 mb-8">
-              Вы сможете легко добраться до склонов и наслаждаться катанием на лыжах, 
+              Вы сможете легко добраться до склонов и наслаждаться катанием на лыжах,
               не тратя время на транспорт и обеспечивая максимальное количество времени на отдых.
             </p>
             <div className="space-y-4">
@@ -51,11 +51,11 @@ const LocationAndAttractions = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
-            <Image 
-              src="/temp.jpg" 
-              alt="Вид на канатную дорогу в Домбае" 
+            <Image
+              src="/temp.jpg"
+              alt="Вид на канатную дорогу в Домбае"
               fill
               style={{ objectFit: 'cover' }}
               className="object-cover"
@@ -70,7 +70,7 @@ const LocationAndAttractions = () => {
 
         <div className="text-center mb-16">
           <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A] mb-8 max-w-full">Природные достопримечательности рядом</h3>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-[#F8F5F0] p-6 rounded-2xl">
               <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -107,9 +107,9 @@ const LocationAndAttractions = () => {
         <div className="bg-[#F8F5F0] rounded-2xl p-8">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-64 rounded-xl overflow-hidden">
-              <Image 
-                src="/temp.jpg" 
-                alt="Местные кафе и развлекательные заведения" 
+              <Image
+                src="/temp.jpg"
+                alt="Местные кафе и развлекательные заведения"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="object-cover"
@@ -135,7 +135,7 @@ const LocationAndAttractions = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ const MobileTest = () => {
     <div className="p-4 bg-gray-100 min-h-screen">
       <h1 className="text-2xl font-bold mb-4">Тест мобильной адаптации</h1>
       <p className="mb-4">Эта страница для тестирования мобильной адаптации компонентов.</p>
-      
+
       <div className="bg-white p-4 rounded-lg shadow mb-4">
         <h2 className="text-xl font-semibold mb-2">Тест кнопок</h2>
         <div className="flex flex-col gap-2">
@@ -17,7 +17,7 @@ const MobileTest = () => {
           </button>
         </div>
       </div>
-      
+
       <div className="bg-white p-4 rounded-lg shadow">
         <h2 className="text-xl font-semibold mb-2">Длинный текст</h2>
         <p className="hyphens-auto">

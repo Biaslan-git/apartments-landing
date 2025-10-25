@@ -8,7 +8,7 @@ const ContactSection = () => {
   const telegramUrl = "https://t.me/your_telegram_channel"; // Замените на реальную ссылку на Telegram канал
 
   return (
-    <div className="py-16 px-4 bg-[#F8F5F0]">
+    <section className="py-16 px-4 bg-[#F8F5F0]" id="contact">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4 max-w-full">
@@ -146,7 +146,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
