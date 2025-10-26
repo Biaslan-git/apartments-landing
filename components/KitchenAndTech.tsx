@@ -79,7 +79,7 @@ const KitchenAndTech = () => {
 
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/temp.jpg"
+              src="/kitchen.jpg"
               alt="Оборудованная кухня апартаментов в Домбае"
               fill
               style={{ objectFit: 'cover' }}

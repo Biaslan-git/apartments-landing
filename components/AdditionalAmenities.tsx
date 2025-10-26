@@ -16,7 +16,7 @@ const AdditionalAmenities = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/temp.jpg"
+              src="/banya1.jpg"
               alt="Баня на дровах и купель в Домбае"
               fill
               style={{ objectFit: 'cover' }}

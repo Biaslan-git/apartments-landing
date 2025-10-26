@@ -88,7 +88,7 @@ const ApartmentDescription = () => {
             </div>
             <div className="relative h-96 lg:h-full">
               <Image
-                src="/temp.jpg"
+                src="/studia_photo1.jpg"
                 alt="Интерьер апартаментов в Домбае"
                 fill
                 style={{ objectFit: 'cover' }}

@@ -54,7 +54,7 @@ const LocationAndAttractions = () => {
 
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/temp.jpg"
+              src="/cable-way.jpg"
               alt="Вид на канатную дорогу в Домбае"
               fill
               style={{ objectFit: 'cover' }}

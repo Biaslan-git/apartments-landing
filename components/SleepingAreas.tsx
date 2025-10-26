@@ -24,7 +24,7 @@ const SleepingAreas = () => {
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Спальня 1</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
               <Image
-                src="/temp.jpg"
+                src="/spalnya1_1.jpg"
                 alt="Первая спальня с двуспальной кроватью"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -46,7 +46,7 @@ const SleepingAreas = () => {
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Спальня 2</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
               <Image
-                src="/temp.jpg"
+                src="/spalnya2_1.jpg"
                 alt="Вторая спальня с двухъярусной кроватью"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -68,7 +68,7 @@ const SleepingAreas = () => {
             <h3 className="text-lg md:text-xl font-bold text-[#1A1A1A] mb-4">Гостиная</h3>
             <div className="relative h-48 rounded-xl overflow-hidden mb-4">
               <Image
-                src="/temp.jpg"
+                src="/divan.jpg"
                 alt="Раскладной диван в гостиной"
                 fill
                 style={{ objectFit: 'cover' }}
