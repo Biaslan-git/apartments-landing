@@ -1,6 +1,6 @@
 const HouseRules = () => {
   return (
-    <section className="py-16 px-4 bg-[#F8F5F0]" id="house_rules">
+    <section className="py-16 px-4" id="house_rules">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">

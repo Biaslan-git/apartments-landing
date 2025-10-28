@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LocationAndAttractions = () => {
   return (
-    <section className="py-16 px-4 bg-white" id="location">
+    <section className="py-16 px-4" id="location">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-4 max-w-full">
