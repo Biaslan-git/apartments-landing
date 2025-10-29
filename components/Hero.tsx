@@ -16,7 +16,7 @@ const Hero = () => {
             priority
           />
           {/* Градиент оверлей для лучшей читаемости текста */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/20 z-1 rounded-3xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#ACB78D]/50 to-[#7D8F62]/70 z-1 rounded-3xl"></div>
         </div>
 
         {/* Контент */}
@@ -28,10 +28,10 @@ const Hero = () => {
             Наслаждайтесь комфортом и потрясающими видами на заснеженные вершины Кавказа
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
-            <a href="#contact" className="bg-white text-gray-900 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition duration-300 w-full">
+            <a href="#contact" className="bg-[#ACB78D] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#7D8F62] transition duration-300 w-full">
               Забронировать
             </a>
-            <a href="#description" className="border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition duration-300 w-full">
+            <a href="#description" className="border-2 border-[#ACB78D] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#ACB78D]/20 transition duration-300 w-full">
               Узнать больше
             </a>
           </div>

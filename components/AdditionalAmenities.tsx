@@ -31,7 +31,7 @@ const AdditionalAmenities = () => {
 
           <div className="flex flex-col justify-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6 max-w-full">
-              Уникальные <span className="text-[#3A7D44]">услуги</span> на первом этаже
+              Уникальные <span className="text-[#ACB78D]">услуги</span> на первом этаже
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-[#1A1A1A]/80 mb-8">
               На первом этаже жилого комплекса находятся баня на дровах и чан для отдыха.
@@ -40,7 +40,7 @@ const AdditionalAmenities = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-start">
-                <div className="w-8 h-8 rounded-full bg-[#3A7D44] flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#ACB78D] flex items-center justify-center mr-4 flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
@@ -51,7 +51,7 @@ const AdditionalAmenities = () => {
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="w-8 h-8 rounded-full bg-[#3A7D44] flex items-center justify-center mr-4 flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#ACB78D] flex items-center justify-center mr-4 flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
@@ -66,9 +66,9 @@ const AdditionalAmenities = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-12 h-12 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4L19 7" />
               </svg>
             </div>
@@ -76,9 +76,9 @@ const AdditionalAmenities = () => {
             <p className="text-sm text-[#1A1A1A]/70">Безопасное место для вашего автомобиля на территории комплекса</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-12 h-12 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
               </svg>
             </div>
@@ -86,9 +86,9 @@ const AdditionalAmenities = () => {
             <p className="text-sm text-[#1A1A1A]/70">Уютное место для встреч с друзьями и вечернего времяпрепровождения</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-12 h-12 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-12 h-12 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </div>
@@ -97,7 +97,7 @@ const AdditionalAmenities = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#E0E0E0]">
+        <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#B8C1A9]">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-64 rounded-xl overflow-hidden">
               <Image
@@ -112,7 +112,7 @@ const AdditionalAmenities = () => {
               <h3 className="text-xl sm:text-2xl font-bold text-[#1A1A1A] mb-4 max-w-full">Дополнительно</h3>
               <ul className="space-y-3">
                 <li className="flex items-center">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -120,7 +120,7 @@ const AdditionalAmenities = () => {
                   <span className="text-[#1A1A1A] text-sm sm:text-base">Беседка для комфортного отдыха на свежем воздухе</span>
                 </li>
                 <li className="flex items-center">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -128,7 +128,7 @@ const AdditionalAmenities = () => {
                   <span className="text-[#1A1A1A] text-sm sm:text-base">Настольные игры для семейного досуга</span>
                 </li>
                 <li className="flex items-center">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>

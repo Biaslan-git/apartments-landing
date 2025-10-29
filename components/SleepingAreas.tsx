@@ -14,9 +14,9 @@ const SleepingAreas = () => {
         </div>
 
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-16 h-16 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12H4" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5h16v14H4z" />
               </svg>
@@ -35,9 +35,9 @@ const SleepingAreas = () => {
             <p className="text-sm text-[#1A1A1A]/70">Для комфортного отдыха двух гостей</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-16 h-16 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5h16v14H4z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 9h16" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 13h16" />
@@ -57,9 +57,9 @@ const SleepingAreas = () => {
             <p className="text-sm text-[#1A1A1A]/70">Для размещения еще двух гостей</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#E0E0E0] text-center">
-            <div className="w-16 h-16 bg-[#3A7D44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#3A7D44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="bg-white p-6 rounded-2xl shadow-md border border-[#B8C1A9] text-center">
+            <div className="w-16 h-16 bg-[#ACB78D]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12H4" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 18H4" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 6H4" />
@@ -80,7 +80,7 @@ const SleepingAreas = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#E0E0E0]">
+        <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#B8C1A9]">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-[#1A1A1A] mb-4 max-w-full">VIP-услуги и комфорт</h3>
@@ -89,7 +89,7 @@ const SleepingAreas = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -97,7 +97,7 @@ const SleepingAreas = () => {
                   <span className="text-sm md:text-[#1A1A1A]">Бесплатное постельное бельё и наборы полотенец</span>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -105,7 +105,7 @@ const SleepingAreas = () => {
                   <span className="text-sm md:text-[#1A1A1A]">Халаты и тапочки при VIP-заселении</span>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#3A7D44] flex items-center justify-center mr-3 flex-shrink-0">
+                  <div className="w-6 h-6 rounded-full bg-[#ACB78D] flex items-center justify-center mr-3 flex-shrink-0">
                     <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                     </svg>

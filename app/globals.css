@@ -2,17 +2,18 @@
 
 
 :root {
-  --background: #FFFFFF;
+  --background: #E9EBE0; /* светло-болотный зеленый для общего фона сайта */
 
   /* Светлый фон карточек и блоков */
-  --card: #F8F5F0; /* теплый кремовый/слоновая кость */
+  --card: #FFFFFF; /* белый для карточек на болотном фоне */
 
   /* Текстовый цвет (основной) */
   --foreground: #1A1A1A; /* почти черный */
 
-  /* Акцентный зеленый */
-  --accent: #3A7D44; /* насыщенный лесной зеленый */
-  --accent-light: #6B9E6B; /* более светлый зеленый */
+  /* Болотный зеленый */
+  --accent: #ACB78D; /* болотный зеленый */
+  --accent-light: #C7D2AE; /* светлый болотный зеленый */
+  --accent-dark: #7D8F62; /* темный болотный зеленый */
 
   /* Цвет заголовков / Темные блоки */
   --heading-bg: #000000; /* черный для заголовков */
@@ -21,11 +22,11 @@
   --white: #FFFFFF;
 
   /* Серый для границ и разделителей */
-  --border-light: #E0E0E0; /* светло-серый */
-  --border-medium: #CCCCCC; /* средний серый для инпутов, рамок */
+  --border-light: #B8C1A9; /* болотный серо-зеленый */
+  --border-medium: #ACB78D; /* болотный зеленый для инпутов, рамок */
 
   /* Цвет активного состояния / Ховера */
-  --hover: #2E6A3A; /* чуть темнее основного зеленого */
+  --hover: #7D8F62; /* темный болотный зеленый */
 }
 
 
@@ -35,6 +36,7 @@
   --color-card: var(--card);
   --color-accent: var(--accent);
   --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
   --color-heading-bg: var(--heading-bg);
   --color-white: var(--white);
   --color-border-light: var(--border-light);
