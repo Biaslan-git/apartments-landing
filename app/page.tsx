@@ -21,18 +21,18 @@ export default function Home() {
           </div>
 
           <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4 mx-4">
-            <div className="backdrop-blur-sm bg-white/5 rounded-3xl p-8 md:p-12">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <div className="max-w-4xl">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-2xl">
                 Элитные апартаменты «Balala» в Домбае
               </h1>
-              <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
                 Наслаждайтесь комфортом и потрясающими видами на заснеженные вершины Кавказа
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                <a href="#contact" className="bg-[#ACB78D] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#9BA67A] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
+                <a href="#contact" className="bg-[#ACB78D] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#9BA67A] transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
                   Забронировать
                 </a>
-                <a href="#description" className="border-2 border-white backdrop-blur-md bg-white/10 text-white font-bold px-8 py-4 rounded-xl hover:bg-white/20 transition-all duration-300">
+                <a href="#description" className="border-2 border-white bg-white/20 backdrop-blur-sm text-white font-bold px-8 py-4 rounded-xl hover:bg-white/30 transition-all duration-300 shadow-xl">
                   Узнать больше
                 </a>
               </div>
