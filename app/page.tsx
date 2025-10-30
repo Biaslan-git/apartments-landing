@@ -7,32 +7,45 @@ export default function Home() {
   return (
     <main className="bg-[#F5F7F0]">
       {/* Hero Section */}
-      <section id="hero" className="w-full min-h-screen overflow-hidden bg-gradient-to-b from-[#ACB78D]/20 to-[#F5F7F0]">
-        <div className="relative">
-          <div className="absolute inset-0 z-0 m-4">
-            <div className="relative w-full h-full rounded-3xl overflow-hidden">
-              <img
-                src="/hero-bg.jpg"
-                alt="Панорамный вид на горы Домбая"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-[#ACB78D]/40 rounded-3xl"></div>
-            </div>
+      <section id="hero" className="w-full min-h-screen overflow-hidden relative">
+        <div className="relative min-h-screen">
+          {/* Фоновое изображение */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src="/hero-bg.jpg"
+              alt="Панорамный вид на горы Домбая"
+              className="w-full h-full object-cover"
+            />
+            {/* Градиент */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-[#ACB78D]/40"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white p-4 mx-4">
-            <div className="max-w-4xl">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-2xl">
-                Элитные апартаменты «Balala» в Домбае
+          {/* Контент */}
+          <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white">
+            <div className="max-w-5xl">
+              {/* Заголовок */}
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
+                Элитные апартаменты<br />
+                <span className="text-[#ACB78D]">«Balala»</span> в Домбае
               </h1>
-              <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
+
+              {/* Описание */}
+              <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
                 Наслаждайтесь комфортом и потрясающими видами на заснеженные вершины Кавказа
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                <a href="#contact" className="bg-[#ACB78D] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#9BA67A] transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
+
+              {/* Кнопки */}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
+                <a
+                  href="#contact"
+                  className="bg-[#ACB78D] text-white font-bold px-10 py-4 rounded-2xl hover:bg-[#9BA67A] transition-all duration-300 shadow-2xl hover:shadow-[#ACB78D]/50 transform hover:scale-105 w-full sm:w-auto"
+                >
                   Забронировать
                 </a>
-                <a href="#description" className="border-2 border-white bg-white/20 backdrop-blur-sm text-white font-bold px-8 py-4 rounded-xl hover:bg-white/30 transition-all duration-300 shadow-xl">
+                <a
+                  href="#description"
+                  className="border-2 border-white backdrop-blur-sm text-white font-bold px-10 py-4 rounded-2xl hover:bg-white hover:text-[#2D3319] transition-all duration-300 w-full sm:w-auto"
+                >
                   Узнать больше
                 </a>
               </div>
