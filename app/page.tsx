@@ -87,29 +87,29 @@ export default function Home() {
           </div>
 
           <div className="relative bg-gradient-to-br from-white via-[#F5F7F0] to-[#ACB78D]/10 rounded-3xl overflow-hidden shadow-2xl border-2 border-[#ACB78D]/30">
-            <div className="grid lg:grid-cols-2">
-              <div className="p-12 flex flex-col justify-center">
-                <span className="text-[#ACB78D] text-sm font-bold uppercase tracking-wider mb-3">Домбай Апартаменты</span>
-                <h3 className="text-3xl md:text-4xl font-bold text-[#2D3319] mb-6">Созданы для отдыха в горах</h3>
-                <p className="text-[#5A6144] mb-8 leading-relaxed">
+            <div className="grid lg:grid-cols-2 gap-0 items-center">
+              <div className="p-6 md:p-8 lg:p-10 flex flex-col justify-center order-2 lg:order-1">
+                <span className="text-[#ACB78D] text-sm font-bold uppercase tracking-wider mb-2">Домбай Апартаменты</span>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#2D3319] mb-3">Созданы для отдыха в горах</h3>
+                <p className="text-[#5A6144] mb-5 leading-relaxed text-sm md:text-base">
                   Квартира расположена в современном жилом комплексе и предлагает уютную атмосферу.
                   Дизайнерский ремонт выполнен из качественных материалов, создавая невероятную и
                   вдохновляющую атмосферу для полноценного отдыха.
                 </p>
-                <div className="space-y-4">
+                <div className="space-y-2.5">
                   {["Великолепный вид на горы", "Свежий горный воздух", "Близость к достопримечательностям"].map((item, idx) => (
-                    <div key={idx} className="flex items-start group">
-                      <div className="w-7 h-7 rounded-full bg-[#ACB78D] flex items-center justify-center mr-4 flex-shrink-0 group-hover:scale-110 transition-transform">
-                        <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div key={idx} className="flex items-center group">
+                      <div className="w-5 h-5 rounded-full bg-[#ACB78D] flex items-center justify-center mr-2.5 flex-shrink-0 group-hover:scale-110 transition-transform">
+                        <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                         </svg>
                       </div>
-                      <span className="text-[#2D3319] font-medium">{item}</span>
+                      <span className="text-[#2D3319] font-medium text-sm">{item}</span>
                     </div>
                   ))}
                 </div>
               </div>
-              <div className="relative h-96 lg:h-full min-h-[400px]">
+              <div className="relative h-80 lg:h-96 order-1 lg:order-2">
                 <img src="/studia_photo1.jpg" alt="Интерьер апартаментов" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/20 to-transparent"></div>
               </div>
@@ -483,67 +483,67 @@ export default function Home() {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 mb-16">
-            <div className="bg-white rounded-3xl shadow-2xl p-10 border-2 border-[#25D366]/20 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+            <div className="bg-white rounded-3xl shadow-2xl p-8 border-2 border-[#25D366]/20 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
               <div className="w-20 h-20 bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-[#2D3319] mb-3">Напишите в WhatsApp</h3>
-              <div className="text-3xl font-bold text-[#25D366] mb-4">8 (938) 528-18-88</div>
-              <p className="text-[#5A6144] mb-6">Быстрые ответы</p>
+              <h3 className="text-xl md:text-2xl font-bold text-[#2D3319] mb-3">Напишите в WhatsApp</h3>
+              <div className="text-2xl md:text-3xl font-bold text-[#25D366] mb-4 break-words">8 (938) 528-18-88</div>
+              <p className="text-[#5A6144] mb-6 text-sm md:text-base">Быстрые ответы</p>
               <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#128C7E] hover:to-[#25D366] text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#128C7E] hover:to-[#25D366] text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full text-sm md:text-base"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
-                Написать в WhatsApp
+                <span className="truncate">Написать в WhatsApp</span>
               </a>
             </div>
 
-            <div className="bg-gradient-to-br from-[#ACB78D]/10 via-white to-[#ACB78D]/20 rounded-3xl shadow-2xl p-10 border-3 border-[#ACB78D] text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+            <div className="bg-gradient-to-br from-[#ACB78D]/10 via-white to-[#ACB78D]/20 rounded-3xl shadow-2xl p-8 border-3 border-[#ACB78D] text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
               <div className="w-20 h-20 border-4 border-[#ACB78D] rounded-2xl flex items-center justify-center mx-auto mb-6 bg-white">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-[#ACB78D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 5V3z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-[#2D3319] mb-3">Позвоните нам</h3>
-              <div className="text-3xl font-bold text-[#ACB78D] mb-4">8 (938) 528-18-88</div>
-              <p className="text-[#5A6144] mb-6">Бала</p>
+              <h3 className="text-xl md:text-2xl font-bold text-[#2D3319] mb-3">Позвоните нам</h3>
+              <div className="text-2xl md:text-3xl font-bold text-[#ACB78D] mb-4 break-words">8 (938) 528-18-88</div>
+              <p className="text-[#5A6144] mb-6 text-sm md:text-base">Бала</p>
               <a
                 href={`tel:${phoneNumber}`}
-                className="inline-flex items-center justify-center gap-2 border-3 border-[#ACB78D] bg-white text-[#ACB78D] hover:bg-[#ACB78D] hover:text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full"
+                className="inline-flex items-center justify-center gap-2 border-3 border-[#ACB78D] bg-white text-[#ACB78D] hover:bg-[#ACB78D] hover:text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full text-sm md:text-base"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 5V3z" />
                 </svg>
-                Позвонить сейчас
+                <span className="truncate">Позвонить сейчас</span>
               </a>
             </div>
 
-            <div className="bg-white rounded-3xl shadow-2xl p-10 border-2 border-[#E1306C]/20 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
+            <div className="bg-white rounded-3xl shadow-2xl p-8 border-2 border-[#E1306C]/20 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
               <div className="w-20 h-20 bg-gradient-to-br from-[#E1306C] to-[#C13584] rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16a4 4 0 100-8 4 4 0 000 8zm0 0v1.5a2.5 2.5 0 005 0V16m-5 0H9m6 0h3m-3 0l-3-3m3 3l3-3M3 19.5V5a2 2 0 012-2h14a2 2 0 012 2v14.5a2 2 0 01-2 2h-14a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-[#2D3319] mb-3">Наш Instagram</h3>
-              <div className="text-3xl font-bold text-[#E1306C] mb-4">@balala_apartments</div>
-              <p className="text-[#5A6144] mb-6">Фото и видео апартаментов</p>
+              <h3 className="text-xl md:text-2xl font-bold text-[#2D3319] mb-3">Наш Instagram</h3>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#E1306C] mb-4 break-words">@balala_apartments</div>
+              <p className="text-[#5A6144] mb-6 text-sm md:text-base">Фото и видео апартаментов</p>
               <a
                 href="https://instagram.com/balala_apartments"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#E1306C] to-[#C13584] hover:from-[#C13584] hover:to-[#E1306C] text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#E1306C] to-[#C13584] hover:from-[#C13584] hover:to-[#E1306C] text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl w-full text-sm md:text-base"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16a4 4 0 100-8 4 4 0 000 8zm0 0v1.5a2.5 2.5 0 005 0V16m-5 0H9m6 0h3m-3 0l-3-3m3 3l3-3M3 19.5V5a2 2 0 012-2h14a2 2 0 012 2v14.5a2 2 0 01-2 2h-14a2 2 0 01-2-2z" />
                 </svg>
-                Перейти в Instagram
+                <span className="truncate">Перейти в Instagram</span>
               </a>
             </div>
           </div>
