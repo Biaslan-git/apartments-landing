@@ -582,18 +582,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border-2 border-[#ACB78D]/30">
-                <div className="w-full h-full bg-gradient-to-br from-[#ACB78D]/20 to-[#9BA67A]/20 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-20 h-20 bg-[#ACB78D] rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                    </div>
-                    <p className="text-[#2D3319] font-bold text-lg">Карта Яндекс</p>
-                    <p className="text-[#5A6144] text-sm mt-2">Домбай, Карачаево-Черкесия</p>
-                  </div>
-                </div>
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false"
+                  width="100%"
+                  height="100%"
+                  frameBorder="1"
+                  allowFullScreen
+                  style={{ position: 'absolute', border: 'none' }}
+                  title="Карта апартаментов в Домбае"
+                ></iframe>
               </div>
             </div>
           </div>
