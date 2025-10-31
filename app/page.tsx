@@ -17,7 +17,7 @@ export default function Home() {
               className="w-full h-full object-cover"
             />
             {/* Градиент */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-[#ACB78D]/40"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/30 to-black/45"></div>
           </div>
 
           {/* Контент */}
