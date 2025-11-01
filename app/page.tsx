@@ -132,23 +132,53 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-3xl overflow-hidden">
-                <Swiper
-                  modules={[Navigation, Pagination]} // Добавьте нужные модули
-                  loop={true}
-                  className='h-full w-full'
-                >
-                  {[{ src: '/studia_photo1.jpg', alt: 'test' }, { src: '/studia_photo1.jpg', alt: 'test' }].map((image, index) => (
-                    <SwiperSlide key={index} className='h-full w-full'>
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        fill={true}
-                        className='object-cover rounded-3xl'
-                      />
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/20 to-transparent pointer-events-none" />
+                <>
+                  <Swiper
+                    modules={[Navigation, Pagination]}
+                    loop={true}
+                    navigation={{
+                      nextEl: '.swiper-button-next-custom',
+                      prevEl: '.swiper-button-prev-custom',
+                    }}
+                    pagination={{
+                      clickable: true,
+                      dynamicBullets: false,
+                    }}
+                    className='h-full w-full [&_.swiper-pagination-bullet]:w-2.5 [&_.swiper-pagination-bullet]:h-2.5 [&_.swiper-pagination-bullet]:bg-white/50 [&_.swiper-pagination-bullet]:border-2 [&_.swiper-pagination-bullet]:border-[#ACB78D] [&_.swiper-pagination-bullet-active]:!bg-[#ACB78D] [&_.swiper-pagination-bullet-active]:scale-125 [&_.swiper-pagination]:!bottom-4'
+                  >
+                    {[
+                      { src: '/studia_photo1.jpg', alt: 'Интерьер апартаментов 1' },
+                      { src: '/studia_photo2.jpg', alt: 'Интерьер апартаментов 2' }
+                    ].map((image, index) => (
+                      <SwiperSlide key={index} className='h-full w-full'>
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          fill={true}
+                          className='object-cover'
+                        />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+
+                  {/* Кастомные кнопки навигации */}
+                  <button className="swiper-button-prev-custom absolute left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 hover:bg-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 border-2 border-[#ACB78D]/20 hover:border-[#ACB78D] group">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#ACB78D] group-hover:text-[#2D3319]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+
+                  <button className="swiper-button-next-custom absolute right-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 hover:bg-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 border-2 border-[#ACB78D]/20 hover:border-[#ACB78D] group">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#ACB78D] group-hover:text-[#2D3319]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+
+                  {/* Кастомная пагинация - ВАЖНО: должна быть пустая, Swiper сам заполнит */}
+                  <div className="swiper-pagination-custom absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10 pointer-events-none [&>*]:pointer-events-auto"></div>
+                </>
+                {/* Градиент оверлей */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/20 to-transparent pointer-events-none"></div>
               </div>
             </div>
           </div>
