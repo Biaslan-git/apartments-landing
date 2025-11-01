@@ -1,4 +1,13 @@
+'use client'
 import React from 'react';
+
+import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export default function Home() {
   const phoneNumber = "89385281888";
@@ -122,9 +131,24 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="relative h-80 lg:h-96 order-1 lg:order-2">
-                <img src="/studia_photo1.jpg" alt="Интерьер апартаментов" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/20 to-transparent"></div>
+              <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-3xl overflow-hidden">
+                <Swiper
+                  modules={[Navigation, Pagination]} // Добавьте нужные модули
+                  loop={true}
+                  className='h-full w-full'
+                >
+                  {[{ src: '/studia_photo1.jpg', alt: 'test' }, { src: '/studia_photo1.jpg', alt: 'test' }].map((image, index) => (
+                    <SwiperSlide key={index} className='h-full w-full'>
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill={true}
+                        className='object-cover rounded-3xl'
+                      />
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/20 to-transparent pointer-events-none" />
               </div>
             </div>
           </div>
@@ -191,7 +215,7 @@ export default function Home() {
                   ))}
                 </ul>
               </div>
-              <div className="relative h-80 rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative h-64 sm:h-72 md:h-80 w-full rounded-2xl overflow-hidden shadow-lg">
                 <img src="/temp.jpg" alt="VIP услуги" className="w-full h-full object-cover" />
               </div>
             </div>
@@ -240,7 +264,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-3xl overflow-hidden shadow-2xl">
               <img src="/kitchen.jpg" alt="Кухня" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/30 to-transparent"></div>
             </div>
@@ -288,7 +312,7 @@ export default function Home() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-3xl overflow-hidden shadow-2xl">
               <img src="/banya1.jpg" alt="Баня" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/70 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
@@ -347,7 +371,7 @@ export default function Home() {
 
           <div className="bg-gradient-to-br from-white to-[#ACB78D]/10 rounded-3xl p-10 shadow-xl border-2 border-[#ACB78D]/30">
             <div className="grid md:grid-cols-2 gap-10 items-center">
-              <div className="relative h-80 rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
+              <div className="relative h-64 sm:h-72 md:h-80 w-full rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
                 <img src="/temp.jpg" alt="Дополнительные услуги" className="w-full h-full object-cover" />
               </div>
               <div className="order-1 md:order-2">
@@ -422,7 +446,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-3xl overflow-hidden shadow-2xl">
               <img src="/cable-way.jpg" alt="Канатная дорога" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#ACB78D]/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
@@ -455,7 +479,7 @@ export default function Home() {
 
           <div className="bg-gradient-to-r from-[#F5F7F0] to-[#ACB78D]/10 rounded-3xl p-10 shadow-xl border-2 border-[#ACB78D]/30">
             <div className="grid md:grid-cols-2 gap-10 items-center">
-              <div className="relative h-80 rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative h-64 sm:h-72 md:h-80 w-full rounded-2xl overflow-hidden shadow-lg">
                 <img src="/temp.jpg" alt="Кафе и развлечения" className="w-full h-full object-cover" />
               </div>
               <div>
@@ -594,7 +618,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border-2 border-[#ACB78D]/30">
+              <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 w-full rounded-2xl overflow-hidden shadow-2xl border-2 border-[#ACB78D]/30">
                 <iframe
                   src="https://yandex.ru/map-widget/v1/org/elitnyye_apartamenty_balala_/186668549633/?ll=41.618804%2C43.284853&utm_source=share&z=16&scroll=false"
                   width="100%"
@@ -708,6 +732,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </main>
+    </main >
   );
 }
